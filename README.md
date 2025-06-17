@@ -12,19 +12,18 @@ A React-based front-end project inspired by OpenAI's Sora interface. This app al
 
 ### 2. Prompt-to-Image/Video Generation
 
-- Input prompt to generate content using DALL·E or mocked API.
+- Input prompt to generate content using mocked data.
 - Select:
   - 📷 Type: `image` or `video`
   - 🖼️ Aspect Ratio: `2:3`, `1:1`, `16:9`, etc.
-  - 🎭 Variations: e.g., `1v`, `4v`
-  - 📏 Resolution
+  - 🎭 Variations: e.g., `1v`, `4v` (Currently Not working)
+  - 📏 Resolution (only for videos)
   - ⏱️ Duration (only for videos)
 
 ### 3. Video Handling
 
-- Autoplay on hover.
+- Autoplay.
 - Loop and mute for modern feel.
-- Responsive video thumbnails.
 
 ### 4. Explore Tab (AdFeed)
 
@@ -45,7 +44,7 @@ A React-based front-end project inspired by OpenAI's Sora interface. This app al
 - **React** (Frontend)
 - **Tailwind CSS** (Styling)
 - **Lucide-react** (Icons)
-- **Mock data** with support for DALL·E API integration
+- **Mock data** Support with Mock data
 - **LocalStorage** for persistence
 
 ---
