@@ -1,4 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🖼️ Sora-Inspired Media Generator
+
+A React-based front-end project inspired by OpenAI's Sora interface. This app allows users to generate images/videos from prompts, explore media in various aspect ratios, and interact with them through editing and variations.
+
+## 🚀 Features
+
+### 1. Media Display Interface
+
+- Switch between 9:16 (vertical), 1:1 (square), and 16:9 (wide) aspect ratios.
+- Responsive layout for both image and video rendering.
+- Smooth view switching (preloaded transitions).
+
+### 2. Prompt-to-Image/Video Generation
+
+- Input prompt to generate content using DALL·E or mocked API.
+- Select:
+  - 📷 Type: `image` or `video`
+  - 🖼️ Aspect Ratio: `2:3`, `1:1`, `16:9`, etc.
+  - 🎭 Variations: e.g., `1v`, `4v`
+  - 📏 Resolution
+  - ⏱️ Duration (only for videos)
+
+### 3. Video Handling
+
+- Autoplay on hover.
+- Loop and mute for modern feel.
+- Responsive video thumbnails.
+
+### 4. Explore Tab (AdFeed)
+
+- Infinite scroll layout.
+- Grid view with mixed media (image/video).
+- Beautiful adaptive layout like Instagram Reels or Sora.
+
+### 5. Media Interaction
+
+- Click to enlarge or view fullscreen.
+- Edit prompt in a modal and regenerate media.
+- State maintained via React state and/or `localStorage`.
+
+---
+
+## 🧱 Tech Stack
+
+- **React** (Frontend)
+- **Tailwind CSS** (Styling)
+- **Lucide-react** (Icons)
+- **Mock data** with support for DALL·E API integration
+- **LocalStorage** for persistence
+
+---
 
 ## Getting Started
 
@@ -14,23 +64,13 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Allowed Prompts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- "A cute animated poop emoji character walking on a sidewalk",
+- "Ethereal figure in glowing light, mystical atmosphere",
+- "Portrait of an elderly man in vibrant green jacket",
+- "Serene mountain landscape with misty peaks",
+- "Modern minimalist portrait photography",
+- "Funny animal short film trailer",
+- "Cyberpunk city street at night with neon lights",
+- "Animated fantasy world adventure",
