@@ -35,11 +35,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     <div className="w-64 p-4 flex flex-col mt-10">
       <SearchBar />
       <nav className="flex-1">
-        <Navigation
-          items={sidebarItems}
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-        />
+        <Navigation items={sidebarItems} setActiveTab={setActiveTab} />
         <LibrarySection items={libraryItems} />
         <button className="w-full flex items-center space-x-3 px-3 py-2 mt-4 rounded-lg text-gray-300 hover:bg-gray-800 hover:text-white transition-colors">
           <Folder className="h-4 w-4" />

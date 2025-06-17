@@ -2,13 +2,15 @@
 import React, { useState, useEffect, useRef } from "react";
 
 // components
-import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/Sidebar";
-import MediaGrid from "./components/MediaGrid/MediaGrid";
-import ActivityBox from "./components/ActivityBox/ActivityBox";
-import PromptEditModal from "./components/PromptEditModal/PromptEditModal";
-import MediaDetailModal from "./components/MediaDetailModal/MediaDetailModal";
-import GenerationInterface from "./components/GenerationInterface/GenerationInterface";
+import {
+  ActivityBox,
+  GenerationInterface,
+  Header,
+  MediaDetailModal,
+  MediaGrid,
+  PromptEditModal,
+  Sidebar,
+} from "./components";
 
 // hooks
 import { useActivityBox } from "./hooks/useActivityBox";

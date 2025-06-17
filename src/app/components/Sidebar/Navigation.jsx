@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navigation = ({ items, activeTab, setActiveTab }) => {
+const Navigation = ({ items, setActiveTab }) => {
   return (
     <ul>
       {items?.map((item, index) => (

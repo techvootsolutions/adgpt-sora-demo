@@ -1,4 +1,3 @@
-// components/PromptBox/PromptBox.jsx
 import React from "react";
 import { Plus, ArrowUp } from "lucide-react";
 import { Dropdown } from "./dropdown";

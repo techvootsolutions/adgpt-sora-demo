@@ -1,4 +1,3 @@
-// components/GenerationInterface/GenerationInterface.jsx
 import React from "react";
 import PromptBox from "../PromptBox/PromptBox";
 

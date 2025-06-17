@@ -1,4 +1,3 @@
-// components/PromptEditModal/PromptEditModal.jsx
 import React from "react";
 import PromptBox from "../PromptBox/PromptBox";
 import { X } from "lucide-react";

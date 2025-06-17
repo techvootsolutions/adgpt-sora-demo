@@ -29,7 +29,6 @@ const MediaItem = ({ item, onClick, getAspectRatioClass }) => {
           />
         )}
 
-        {/* Hover Actions */}
         <div className="absolute bottom-0 opacity-100 transition-opacity w-full py-2 px-3">
           <div className="flex justify-between items-center w-full">
             <div className="flex items-center space-x-2">
